@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.messageBox{
+    border: none;
+    padding: 1vmax;
+    margin: 0.4vmax;
+    width: 50%;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+}
+.right{
+    float: right;
+    background-color: rgb(223, 37, 74);
+    color: white;
+}
+.left{
+    float: left;
+    background-color: rgb(109, 179, 109);
+}
+.center{
+    margin-left: 23%;
+   color: rgba(97, 95, 97, 1);
+   text-align: center;
+    box-shadow: 2px 3px 5px rgb(219, 218, 218);
+}
